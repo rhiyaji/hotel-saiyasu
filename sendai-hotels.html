@@ -112,7 +112,7 @@
   </div>
   <div class="note" style="margin-top:14px;">
     💡 価格はヘッドレスブラウザ（Playwright）でJS描画ページを実レンダリングして取得した日付指定の確定額、または公式予約エンジン／楽天の日付指定実検索値です。
-    一休.com・Yahoo!トラベルは未スクレイプ（会員セールで更に安い可能性あり）。仙台国際の朝食付きは楽天・じゃらん両方にあり、<b>楽天が最安</b>（会員割でさらに安い）。
+    一休.com・Yahoo!トラベルも Playwright で全4ホテル取得済み（各表に反映）。<b>いずれも上記の最安（楽天/公式）を更新せず</b>。※Yahoo!の表示額は<b>PayPayポイント利用込みの実質額</b>の可能性があり、現金総額は予約画面で要確認。
   </div>
 
   <!-- ===================== ① 仙台国際 ===================== -->
@@ -144,9 +144,18 @@
         <td class="open"><a href="https://www.jalan.net/yad300770/plan/?stayYear=2026&stayMonth=07&stayDay=12&stayCount=2&roomCount=1&adultNum=2" target="_blank">開く ↗</a></td>
       </tr>
       <tr>
-        <td class="site">一休.com</td><td>—</td><td>—</td><td class="price">—</td>
-        <td><span class="chip c-todo">未取得</span></td>
-        <td class="open"><a href="https://www.ikyu.com/00000119/" target="_blank">開く ↗</a></td>
+        <td class="site">一休.com</td>
+        <td>コーナーダブル/ツイン 素泊¥24,022／デラックスツイン33.3㎡ 朝食付¥56,048</td>
+        <td>21㎡</td><td class="price">—</td>
+        <td><span class="chip c-ok">確認済</span><div class="small">楽天より高い</div></td>
+        <td class="open"><a href="https://www.ikyu.com/00000119/?cid=20260712&lc=2&ppc=2&rc=1&top=rooms" target="_blank">開く ↗</a></td>
+      </tr>
+      <tr>
+        <td class="site">Yahoo!トラベル</td>
+        <td>コーナーダブル/ツイン 素泊¥18,410／デラックスツイン 朝食付¥42,915</td>
+        <td>21㎡</td><td class="price">—</td>
+        <td><span class="chip c-warn">要確認</span><div class="small">PayPayポイント利用込みの実質額の可能性</div></td>
+        <td class="open"><a href="https://travel.yahoo.co.jp/00000119/?cid=20260712&lc=2&ppc=2&rc=1&top=rooms" target="_blank">開く ↗</a></td>
       </tr>
       <tr>
         <td class="site">公式(489pro)</td><td>朝食付プランあり</td><td>21㎡</td><td class="price">—</td>
@@ -184,9 +193,11 @@
         <td class="open"><a href="https://go-jrhotel-m.reservation.jp/ja/hotels/metro-sendai/rooms/10023998?checkin_date=20260712&checkout_date=20260714&adults=2&rooms=1" target="_blank">開く ↗</a></td>
       </tr>
       <tr>
-        <td class="site">一休 / Yahoo / じゃらん</td><td>—</td><td>—</td><td class="price">—</td>
-        <td><span class="chip c-todo">未取得</span></td>
-        <td class="open"><a href="https://www.ikyu.com/00000114/" target="_blank">一休 ↗</a></td>
+        <td class="site">一休 / Yahoo</td>
+        <td>スタンダードツイン(禁煙)素泊 一休¥41,160／Yahoo¥37,800・ラージツイン33㎡朝食付 一休¥62,916／Yahoo¥57,780</td>
+        <td>27㎡</td><td class="price">—</td>
+        <td><span class="chip c-warn">確認</span><div class="small">楽天¥44,960を下回らず／Yahooはポイント込みの可能性</div></td>
+        <td class="open"><a href="https://www.ikyu.com/00000114/?cid=20260712&lc=2&ppc=2&rc=1&top=rooms" target="_blank">一休 ↗</a></td>
       </tr>
     </table>
   </div>
@@ -220,9 +231,11 @@
         <td class="open"><a href="https://go-jrhotel-m.reservation.jp/ja/hotels/metro-sendaieast/rooms/10025029?checkin_date=20260712&checkout_date=20260714&adults=2&rooms=1" target="_blank">開く ↗</a></td>
       </tr>
       <tr>
-        <td class="site">一休 / Yahoo / じゃらん</td><td>—</td><td>—</td><td class="price">—</td>
-        <td><span class="chip c-todo">未取得</span></td>
-        <td class="open"><a href="https://www.ikyu.com/00002418/" target="_blank">一休 ↗</a></td>
+        <td class="site">一休 / Yahoo</td>
+        <td>スーペリアツイン34㎡ 素泊 一休¥61,740／Yahoo¥56,700（朝食付はこれ以上）</td>
+        <td>34㎡</td><td class="price">—</td>
+        <td><span class="chip c-warn">確認</span><div class="small">楽天¥62,560(朝食付)を下回らず／Yahooはポイント込みの可能性</div></td>
+        <td class="open"><a href="https://www.ikyu.com/00002418/?cid=20260712&lc=2&ppc=2&rc=1&top=rooms" target="_blank">一休 ↗</a></td>
       </tr>
     </table>
   </div>
@@ -247,9 +260,11 @@
         <td class="open"><a href="https://go-gardenhotels.reservation.jp/ja/hotels/mgh016/plans/10154197?checkin_date=20260712&checkout_date=20260714&adults=2&rooms=1&sort=3" target="_blank">開く ↗</a></td>
       </tr>
       <tr>
-        <td class="site">一休 / 楽天 / Yahoo / じゃらん</td><td>—</td><td>—</td><td class="price">—</td>
-        <td><span class="chip c-todo">未取得</span></td>
-        <td class="open"><a href="https://www.ikyu.com/00001566/" target="_blank">一休 ↗</a></td>
+        <td class="site">一休 / Yahoo</td>
+        <td>最安¥19,120〜20,816はスタンダード（20㎡未満・除外）。スーペリアツイン以上は公式が最安</td>
+        <td>—</td><td class="price">—</td>
+        <td><span class="chip c-ok">確認済</span><div class="small">公式¥35,600を下回らず</div></td>
+        <td class="open"><a href="https://www.ikyu.com/00001566/?cid=20260712&lc=2&ppc=2&rc=1&top=rooms" target="_blank">一休 ↗</a></td>
       </tr>
     </table>
   </div>
@@ -259,7 +274,7 @@
     ・価格は2026/6/8時点の取得値（2泊合計・税込・大人2名・朝食付き・禁煙）。セール・残室により変動します。<br>
     ・宿泊税：仙台市は2026/1/13宿泊分より、1名1泊の素泊まり料金（税抜）6,000円以上で1名1泊300円課税（2名2泊で最大1,200円別途）。表示総額に含まれない場合あり。<br>
     ・三井ガーデンは会員（MGH Rewards Club・無料）登録でさらに割引。<br>
-    ・一休.com／Yahoo!トラベルは未スクレイプ。希望があればPlaywrightで追加取得します（scrape_prices.py）。<br>
+    ・一休.com／Yahoo!トラベルも Playwright（scrape_ota.py）で全4ホテル取得済み。いずれも最安を更新せず。Yahoo!表示はPayPayポイント利用込みの実質額の可能性があり現金総額は要確認。<br>
     ・取得方法：公式予約エンジン／楽天は日付指定URLの実検索、じゃらん（仙台国際）はheadless Chromium（Playwright）でJS描画を実レンダリングして取得。
   </footer>
 
